@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #00AEEF;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar .logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .logo img {
+    max-width: 100%;
+}
+
+.sidebar .menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar .menu li {
+    padding: 10px 0;
+}
+
+.main-content {
+    width: 80%;
+    padding: 20px;
+}
+
+.teacher-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.teacher-info img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.teacher-info h1 {
+    font-size: 1.5em;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions .action {
+    text-align: center;
+    width: 18%;
+}
+
+.actions .action img {
+    max-width: 100%;
+}
+
+.actions .action p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.logout {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00AEEF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.logout:hover {
+    background-color: #007BA7;
+}
